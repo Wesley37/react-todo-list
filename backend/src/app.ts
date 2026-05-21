@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 app.use(todoRoutes)
 
-const uri: string = "mongodb+srv://wesleyisrael2013_db_user:CSF4UUEyKOS79f9B@todo-cluster.50evxot.mongodb.net/?appName=todo-cluster";
+const uri: string = "mongodb+srv://your_db_user:your_db_password@todo-cluster.50evxot.mongodb.net/?appName=todo-cluster";
 
 
 mongoose
