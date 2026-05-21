@@ -1,0 +1,29 @@
+{
+  "name": "-y",
+  "version": "-y",
+  "description": "-y",
+  "main": "-y",
+  "repository": "-y",
+  "author": "-y",
+  "license": "-y",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+  },
+  
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^25.9.1",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
+

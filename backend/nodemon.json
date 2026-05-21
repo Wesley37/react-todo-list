@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "wesleyisrael2013_db_user",
+        "MONGO_PASSWORD": "CSF4UUEyKOS79f9B",
+        "MONGO_DB": "wesleyisrael2013_db_user"
+    }
+}
