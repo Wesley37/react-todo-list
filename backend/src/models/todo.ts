@@ -1,5 +1,5 @@
-import { ITodo } from "./../types/todo"
-import { model, Schema } from "mongoose"
+import { ITodo } from "./../types/todo";
+import { model, Schema } from "mongoose";
 
 const todoSchema: Schema = new Schema(
   {
@@ -19,6 +19,6 @@ const todoSchema: Schema = new Schema(
     },
   },
   { timestamps: true }
-)
+);
 
-export default model<ITodo>("Todo", todoSchema)
+export default model<ITodo>("Todo", todoSchema);
